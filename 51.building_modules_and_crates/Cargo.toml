@@ -1,5 +1,5 @@
 [package]
-name = "consuming_crates"
+name = "building_modules_and_crates"
 version = "0.1.0"
 edition = "2021"
 authors = ["Omar Belghaouti <omarbelghaouti@gmail.com>"]
@@ -7,5 +7,3 @@ authors = ["Omar Belghaouti <omarbelghaouti@gmail.com>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rand = "0.8.5"
-building_modules_and_crates = {path = "../51.building_modules_and_crates"}
