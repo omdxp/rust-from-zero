@@ -9,3 +9,10 @@ pub mod greetings {
         }
     }
 }
+
+#[test]
+#[should_panic]
+#[ignore = "still in dev"]
+fn english_greeting_correct() {
+    assert_eq!("hellos", greetings::english::hello())
+}
